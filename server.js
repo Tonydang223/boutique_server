@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 //socket
 const http = require("http").createServer(app);
