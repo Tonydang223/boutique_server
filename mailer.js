@@ -23,8 +23,8 @@ const sendMail = (to, subject, htmlContent) => {
   });
 
   const options = {
-    from: adminEmail, // địa chỉ admin email bạn dùng để gửi
-    to: to, // địa chỉ gửi đến
+    from: adminEmail, // địa chỉ admin email bạn dùng để gửi.
+    to: to, // địa chỉ gửi đến.
     subject: subject, // Tiêu đề của mail
     html: htmlContent, // Phần nội dung mail mình sẽ dùng html thay vì thuần văn bản thông thường.
   };
