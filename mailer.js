@@ -15,7 +15,7 @@ const sendMail = (to, subject, htmlContent) => {
   const transporter = nodeMailer.createTransport({
     host: mailHost,
     port: mailPort,
-    secure: false, // nếu các bạn dùng port 465 (smtps) thì để true, còn lại hãy để false cho tất cả các port khác
+    secure: false, // nếu các bạn dùng port 465 (smtps) thì để true, còn lại hãy để false cho tất cả các port khác.
     auth: {
       user: adminEmail,
       pass: adminPassword,
